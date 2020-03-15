@@ -10,3 +10,10 @@ body {
     background: #fff;
     width: 700px;
 }
+
+footer{
+    background-color: rgba(120, 120,120, .5);
+    line-height: 3;
+    text-align: center;
+    width: 100%;
+}
