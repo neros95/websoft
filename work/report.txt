@@ -1,0 +1,35 @@
+1)	Write a general paragraph about how the project was implemented. Problems / solutions / simple / difficult / fast / long time, etc. Was the project easy or difficult? Did it take a long time? What was difficult and what went easy?
+Was this a good and reasonable project for this course? How was it to work in a team?
+
+Projektet gick bra, det var inte så svårt med tanke att man tog ett steg i taget men det blev några små komplikationer under tiden vi jobbade. Att samarbeta i team gick bra, vi har tidigare jobbat i andra kurser så vi vet ungefär hur
+gillar och jobba och vilken tempo vi jobbar i. Att välja gruppmedlemmar tycker jag är väldigt viktigt när det handlar om lite större projekt. 
+
+För att bygga fronten använde vi JavaScript och React.js och för servern eller så kallad backend använde vi oss av Node.js , express.js och för databasen användes postgresql.
+När vi blev klara med fronten samt serven och databasen använde vi Knex.js för att koppla servern och databasen, och anledningen till att vi valde det är för att den är bra , kompatibelt och fungerar bra med postgresql.
+
+Vi använde postman(applikation som användas för att testa endpoint i vår server) mest för att se till att anslutningarna fungerar som det ska.
+
+Säkerhet är ett viktigt punkt när man skapar applikationer , man vill att obehöriga personer ska komma åt känsligt information. För det använde vi bcrypt-node.js . Vilket hjälper och ser till att användarnas inloggning och lösernord hashas. 
+
+För att kunna ha en säker applikation och kunna kryptera informationen använde vi https(hypertext transfer protocol secure) som är säkerhets protocol som används för kryptering av data vilket gör det svårt för hackers att komma åt datan.
+
+
+Som jag tidigare nämnde så hade vi lite komplikationer under projektet , vi fick error från Chrome när vi försökte ladda sidan, vilket löstes med Cors biblioteket. Cors är något man ska ta hänsyn till när det gäller säkerhet i webben.
+Med hjälp av Cors request kunde vi komma åt datan och komma åt våra sidor.
+
+
+Finish with a final paragraph with your thoughts on the course and what you think about the material and the guide (about 5-10 sentences). Provide feedback to teachers and suggest any improvement suggestions for upcoming course opportunities.
+Are you satisfied / dissatisfied? Will you recommend the course to your friends / colleagues? On a scale of 1-10, what grade do you give the course?
+
+
+Jag tycker att kursen gick bra, det var komplicerat att komma igång med det i början men ju längre in man kom in kursen desto lättare blev det. Det är alltid svårt att lära sig nya programmeringsspråk och scripts men det gick bra i slutet.
+
+Kursens innehåll var bra och tydligt. Att ha lektioner på plats och sedan kunna se det på video tycker jag var ett bra sätt att lära sig. Vi har inte haft något liknande tidigare. Vanliga lektioner och sen ppt på canvas. Det är lättare att kolla
+igenom en video och se vilka frågor som tagits upp och vilka viktiga punkter som nämns under lektionen. Jag kan säga att jag är satisfied med kursen, jag skulle lätt rekommendera kursen till mina vänner som vill lära sig software development for 
+the web.  På en skala 1 - 10 ger jag 8. 
+
+
+What is your final TIL for this course?
+
+Jag lärde mig ganska mycket med kortfattat : lärde mig mer om react.js i och med vi använde rect för fronten av vår applikation och lärde mig också att säkerheten i applikationer är jätte viktigt. Jag lärde mig att kryptera datan med hjälp att
+säkerhetsprotokoller(https).
