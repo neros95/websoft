@@ -1,0 +1,5 @@
+const getPosts=() =>{
+
+    return fetch('')
+
+}
